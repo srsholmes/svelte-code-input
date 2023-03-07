@@ -29,13 +29,13 @@ yarn add @srsholmes/svelte-code-input
 import CodeInput from '@srsholmes/svelte-code-input/CodeInput.svelte';
 
 <CodeInput
-	autoHeight={true}
-	resize="both"
-	placeholder="Input your code here..."
-	prismJS={Prism}
-	onChange={setInput}
-	value={'const hello = "world";'}
-	language={'typescript'}
+  autoHeight={true}
+  resize="both"
+  placeholder="Input your code here..."
+  prismJS={Prism}
+  onChange={setInput}
+  value={'const hello = "world";'}
+  language={'typescript'}
 />;
 ```
 
@@ -57,14 +57,14 @@ CodeInput takes the following props:
 
 ```ts
 export type CodeInputProps = {
-	prismJS?: typeof Prism;
-	highlightjs?: typeof highlightjs;
-	value: string;
-	language: string;
-	onChange: (value: string) => void;
-	placeholder?: string;
-	resize?: 'both' | 'horizontal' | 'vertical';
-	autoHeight?: boolean;
+  prismJS?: typeof Prism;
+  highlightjs?: typeof highlightjs;
+  value: string;
+  language: string;
+  onChange: (value: string) => void;
+  placeholder?: string;
+  resize?: 'both' | 'horizontal' | 'vertical';
+  autoHeight?: boolean;
 };
 ```
 
