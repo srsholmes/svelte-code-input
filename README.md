@@ -2,6 +2,8 @@
 
 Svelte Code Input is a small component for SvelteJS that allows you to create a lightweight text area component which will automatically syntax highlight the code you type in it. It is designed for basic use cases where you want to display code to the user, and allow them to edit it, without all the overhead of a full blown code editor.
 
+https://user-images.githubusercontent.com/3579905/223550825-e4f87b89-a134-4748-8bfa-7bba1d3f355d.mp4
+
 It supports both [PrismJS](https://prismjs.com/) and [HighlightJS](https://highlightjs.org/) to do the syntax highlighting, and will use either depending on which library you pass in as a prop.
 
 ## Features
